@@ -29,6 +29,8 @@ def get_filters():
         print("Invalid input please try again.")
         continue
       else:
+        if city in ("washington"):
+            print("washington city data doesn't include gender\n")
         break
 
     #get user input for filter type (day, month, not at all) 
